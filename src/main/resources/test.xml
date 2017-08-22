@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<wrapper xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://www.test.com"
+          xs:schemaLocation="http://www.test.com test.xsd">
+    <element/>
+    <oneA/>
+    <b/>
+</wrapper>

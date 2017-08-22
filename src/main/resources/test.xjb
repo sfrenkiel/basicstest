@@ -1,0 +1,16 @@
+<jxb:bindings xmlns:jxb="http://java.sun.com/xml/ns/jaxb" version="2.0"
+              xmlns:simplify="http://jaxb2-commons.dev.java.net/basic/simplify"
+              xmlns:xs="http://www.w3.org/2001/XMLSchema"
+              schemaLocation="test.xsd">
+
+    <jxb:bindings>
+        <jxb:globalBindings generateElementProperty="false"/>
+    </jxb:bindings>
+    <jxb:bindings node="/xs:schema/xs:group[@name='seq1']//xs:element[@name='oneA']">
+        <simplify:as-element-property/>
+    </jxb:bindings>
+    <jxb:bindings node="//xs:element[@name='element']">
+        <simplify:as-element-property/>
+    </jxb:bindings>
+
+</jxb:bindings>
