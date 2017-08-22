@@ -8,7 +8,7 @@
                 <xs:element name="element" />
                 <xs:choice>
                     <xs:group ref="seq1"/>
-                    <!--<xs:group ref="seq2"/>-->
+                    <xs:group ref="seq2"/>
                 </xs:choice>
             </xs:sequence>
         </xs:complexType>
